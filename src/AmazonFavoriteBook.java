@@ -15,7 +15,7 @@ public class AmazonFavoriteBook {
         // click on inspect to find the web elements locators
        // this is to find by name  WebElement searchBox = drive.findElement(By.name("field-keywords"));
         WebElement byId = drive.findElement((By.id("twotabsearchtextbox")));
-        byId.sendKeys("Thousand Splendid Suns"); //add keys in the text box
+        byId.sendKeys("There is simply too much to think about"); //add keys in the text box
         byId.submit(); //
     }
 }
